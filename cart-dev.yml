@@ -6,10 +6,10 @@ spring:
   redis:
     host: 124.222.45.111
   rabbitmq:
-    virtual-host: /emp
+    host: 124.222.45.111
     username: guest
     password: guest
-    host: 124.222.45.111
+    virtual-host: /emp
 eureka:
   client:
     service-url:
