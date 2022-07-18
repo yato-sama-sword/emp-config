@@ -38,5 +38,5 @@ hystrix:
 
 leyou:
   jwt:
-    cookieName: LY_TOKEN
+    cookieName: EMP_TOKEN
     pubKeyPath: C:\\temp\\rsa\\rsa.pub # 公钥地址
