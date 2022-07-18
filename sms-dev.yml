@@ -9,9 +9,9 @@ spring:
     password: guest
     virtual-host: /emp
 
-leyou:
+foxmall:
   sms:
     accessKeyId: LTAIc259TULYzaS7
     accessKeySecret: 1uh79I1UAmwQ4YWsSmOgxw7JEBGA0v
-    signName: 乐优商城
+    signName: 睿购商城
     verifyCodeTemplate: SMS_148614415

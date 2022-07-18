@@ -33,7 +33,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10
 
 mybatis:
-  type-aliases-package: com.leyou.order.pojo
+  type-aliases-package: com.neu.foxmall.pojo
   mapper-locations: mapper/OrderMapper.xml
 
 ribbon:
@@ -55,7 +55,7 @@ leyou:
     workerId: 1
     dataCenterId: 1
   jwt:
-    cookieName: LY_TOKEN
+    cookieName: EMP_TOKEN
     pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
   pay:
     appId: wx8397f8696b538317

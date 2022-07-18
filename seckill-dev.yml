@@ -23,7 +23,7 @@ spring:
     password: guest
     virtual-host: /emp
     template:
-      exchange: leyou.order.exchange
+      exchange: emp.order.exchange
     publisher-confirms: true
   redis:
     host: 124.222.45.111
@@ -64,5 +64,5 @@ hystrix:
 
 leyou:
   jwt:
-    cookieName: LY_TOKEN
+    cookieName: EMP_TOKEN
     pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
