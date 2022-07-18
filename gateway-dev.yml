@@ -49,7 +49,7 @@ hystrix:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
 leyou:
   jwt:
-    cookieName: LY_TOKEN
+    cookieName: EMP_TOKEN
     pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
   filter:
     allowPaths:
