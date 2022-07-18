@@ -23,7 +23,7 @@ spring:
         multiplier: 2
         initial-interval: 10000ms
         max-interval: 210000ms
-      exchange: leyou.item.exchange
+      exchange: emp.item.exchange
     publisher-confirms: true
 eureka:
   client:

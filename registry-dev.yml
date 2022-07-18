@@ -2,7 +2,7 @@ server:
   port: 10086
 spring:
   application:
-    name: ly-registry
+    name: emp-registry
   rabbitmq:
     host: 124.222.45.111
     username: guest

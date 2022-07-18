@@ -2,7 +2,7 @@ server:
   port: 10010
 spring:
   application:
-    name: api-gateway
+    name: gateway-service
   rabbitmq:
     host: 124.222.45.111
     username: guest
