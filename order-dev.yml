@@ -16,7 +16,7 @@ spring:
     password: guest
     virtual-host: /emp
     template:
-      queue: leyou.order.delay.queue
+      queue: emp.order.delay.queue
     publisher-confirms: true
   redis:
     host: 124.222.45.111
@@ -33,7 +33,7 @@ eureka:
     lease-expiration-duration-in-seconds: 10
 
 mybatis:
-  type-aliases-package: com.neu.foxmall.pojo
+  type-aliases-package: com.foxmall.order.pojo
   mapper-locations: mapper/OrderMapper.xml
 
 ribbon:
