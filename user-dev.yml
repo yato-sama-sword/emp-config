@@ -49,4 +49,4 @@ hystrix:
           thread:
             timeoutInMillisecond: 10000 # 熔断超时时长：10000ms
 mybatis:
-  type-aliases-package: com.neu.foxmall.pojo
+  type-aliases-package: com.foxmall.user.pojo
